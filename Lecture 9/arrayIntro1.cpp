@@ -49,10 +49,17 @@ int main() {
 
     int fifthSize = sizeof(fifth)/sizeof(int);
     cout<<" Size of Fifth is " << fifthSize <<endl;
+    //to initialize the value with same suppose as 1
+    int num=5;
+    int val=1;
+    int arr[num];
+    for(int i=0;i<num;i++)
+     {   arr[i]=val;
+        cout<<endl<<arr[i]<<endl;}
     
 
     char ch[5] = {'a', 'b', 'c', 'r', 'p'}; 
-    cout << ch[3] << endl;
+    cout << endl<<ch[3] << endl;
 
     cout<< " printing the array " << endl;
     //print the array
@@ -65,7 +72,7 @@ int main() {
     bool firstBool[9];
 
 
-    cout << endl << " Everything is Fine " << endl << endl;
+     cout << endl << " Everything is Fine " << endl << endl;
 
     return 0;
 }
