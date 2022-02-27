@@ -7,3 +7,7 @@ int findUnique(int *arr, int size)
     }    
     return ans;
 } 
+
+//XOR
+ // a ^ a=0
+// 0 ^ a=a
